@@ -9,13 +9,16 @@
     "build-storybook": "storybook build",
     "build-lib": "rollup -c",
     "tailwind-extract": "npx tailwindcss -i src/main.css -o src/tailwind.css --watch",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_446721104b5bd43"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kartik7120/pluto.git"
   },
-  "author": "kartik7120",
+  "author": {
+    "name": "kartik7120"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kartik7120/pluto/issues"
@@ -55,5 +58,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.4.1"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "plutojs@1.0.0"
 }
