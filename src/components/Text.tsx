@@ -2,7 +2,7 @@ import React from 'react'
 
 interface Props {
     variant: "base" | "h1" | "h2" | "h3" | "code" | "lead" | "large" | "small" | "muted" | "italic" | undefined,
-    children: "string" | undefined
+    children: string | undefined
 }
 
 export default function Text({ variant, children }: Props) {

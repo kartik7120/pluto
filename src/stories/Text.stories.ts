@@ -15,7 +15,6 @@ const meta: Meta<typeof Text> = {
         children: {
             defaultValue: "Sometimes Pluto is closer to The Sun than Neptune",
             description: "Text that goes as a children in the text component",
-            type: "string",
         }
     },
     tags: ['autodocs']
